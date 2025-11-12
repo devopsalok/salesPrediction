@@ -18,7 +18,7 @@ df.hist(figsize=(10,10), bins =50 )
 
 plt.figure(figsize=(10,10))
 sns.heatmap(df.corr(), annot=True)
-
+# plot the pairplot
 sns.pairplot(df)
 plt.show()
 
